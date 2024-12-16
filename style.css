@@ -52,18 +52,18 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    top: 140px;
+    top: 100px;
     align-items: center;
     justify-content: center;
     background-color: rgba(11, 20, 12,0.5);
     color: white;
     font-family: 'Odin', serif;
-    font-size: 110px;
+    font-size: 90px;
 }
 
 .odin-logo {
-    width: 90px;
-    height: 125px;
+    width: 60px;
+    height: 80px;
 }
 
 .odin-logo img {
@@ -81,7 +81,7 @@ body {
 /*---------------The Right Side of the Page-------------------------------------------------------------------------*/
 
 .right {
-    margin-top: 65px;
+    margin-top: 50px;
     margin-left: 40px;
     width: 900px;
     display: flex;
@@ -104,11 +104,11 @@ body {
 
 
 .intro-container {
-    width: 600px;
+    width: 550px;
 } 
 
 .form-container {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 500px;
 }
 
@@ -165,5 +165,10 @@ button:hover {
 .log-in {
     margin-top: 20px;
     font-size: 0.75em;
-    color: rgb(121, 120, 120);
+    color: rgb(97, 91, 91);
+    width: 200px;
+    & a {
+        color: rgb(63, 105, 63);
+        text-decoration: none;
+    }
 }
